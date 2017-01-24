@@ -1,1 +1,1 @@
-# Config für homeassi
+# Config for homeassi
