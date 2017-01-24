@@ -2,8 +2,8 @@ homeassistant:
   # Name of the location where Home Assistant is running
   name: Home
   # Location required to calculate the time the sun rises and sets
-  latitude: !secrets.yaml latitude_home
-  longitude: !secrets.yaml longitude_home
+  latitude: !secret latitude_home
+  longitude: !secret longitude_home
   # Impacts weather/sunrise data (altitude above sea level in meters)
   elevation: 460
   # metric for Metric, imperial for Imperial
@@ -11,14 +11,14 @@ homeassistant:
   time_zone: Europe/Berlin
 
 # Show links to resources in log and frontend
-#introduction:
+# introduction:
 
 # Enables the frontend
 frontend:
 
 http:
   # Uncomment this to add a password (recommended!)
-  # api_password: PASSWORD
+  api_password: !secret api_password
   # Uncomment this if you are using SSL or running in Docker etc
   # base_url: example.duckdns.org:8123
 
@@ -51,30 +51,30 @@ sensor 2:
 tts:
   platform: google
 
-#my config
+# my config
 zone:
   name: Home
-  latitude: !secrets.yaml latitude_home
-  longitude: !secrets.yaml longitude_home
+  latitude: !secret latitude_home
+  longitude: !secret longitude_home
   radius: 20
   icon: mdi:home
 
 zone 2:
   name: KUKA
-  latitude: !secrets.yaml latitude_KUKA
-  longitude: !secrets.yaml longitude_KUKA
+  latitude: !secret latitude_KUKA
+  longitude: !secret longitude_KUKA
   radius: 300
   icon: mdi:worker
 
 zone 3:
   name: Seele
-  latitude: !secrets.yaml latitude_Seele
-  longitude: !secrets.yaml longitude_Seele
+  latitude: !secret latitude_Seele
+  longitude: !secret longitude_Seele
   radius: 100
   icon: mdi:worker
 
 device_tracker:
-  #- platform: fritz
+  # - platform: fritz
   #  host: 192.168.1.1
   #  track_new_devices: false
   - platform: owntracks
@@ -85,7 +85,7 @@ mqtt:
   broker: m21.cloudmqtt.com
   port: 12863
   username: ggyaousd
-  password: !secrets.yaml cloudmqtt_password
+  password: !secret cloudmqtt_password
   client_id: home-assi1
   protocol: 3.1
   birth_message:
@@ -116,5 +116,5 @@ media_player:
     host: 192.168.1.120
     name: Kodi
     username: kodi
-    password: !secrets.yaml kodi_password
-    #turn_of_action: shutdown
+    password: !secret kodi_password
+    # turn_of_action: shutdown
