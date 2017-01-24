@@ -41,6 +41,7 @@ __pycache__
 *.pyc
 
 # Other
+*.swp
 *.uuid
 *.conf
 *.db

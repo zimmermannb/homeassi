@@ -21,6 +21,12 @@ http:
   api_password: !secret api_password
   # Uncomment this if you are using SSL or running in Docker etc
   # base_url: example.duckdns.org:8123
+  trusted_networks:
+    - 192.168.1.0/24
+    - 192.168.2.0/24
+    - 192.168.3.0/24
+  login_attempts_threshold: 10
+  ip_ban_enabled: True
 
 # Checks for available updates
 updater:
@@ -40,13 +46,11 @@ logbook:
 # Track the sun
 sun:
 
-# Weather Prediction
-sensor:
-  platform: yr
+# All sensors belong to the sensor dir
+sensor: !include_dir_merge_list sensors
 
-sensor 2:
-  platform: example
-
+# All groups belong to the group dir
+group: !include_dir_merge_named groups
 # Text to speech
 tts:
   platform: google
@@ -74,9 +78,6 @@ zone 3:
   icon: mdi:worker
 
 device_tracker:
-  # - platform: fritz
-  #  host: 192.168.1.1
-  #  track_new_devices: false
   - platform: owntracks
     max_gps_accuracy: 200
     waypoints: true

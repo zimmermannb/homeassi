@@ -1,0 +1,6 @@
+MySensors:
+  entities:
+    - sensor.temperature
+    - sensor.speedtest_download
+    - sensor.speedtest_ping
+    - sensor.speedtest_upload
