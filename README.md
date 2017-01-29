@@ -19,4 +19,6 @@
 	- cd ~
 	- git clone git@github.com:zimmermannb/homeassi.git .homeassistant
 	
+## Upgrade
 
+	- sudo -H pip3 install --upgrade homeassistant
