@@ -10,6 +10,8 @@
 	- sudo useradd hass
 	- su hass
 	- sudo -H pip3 install homeassistant
+	- sudo -H pip3 install xbee
+	- sudo -H pip3 install pyserial
 	- sudo -H pip3 install speedtest-cli
 		- speedtest-cli https://github.com/sivel/speedtest-cli
 	- setup: https://home-assistant.io/getting-started/autostart-systemd/
