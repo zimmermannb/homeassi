@@ -23,7 +23,7 @@ class XBeeTempSensor(Entity):
         adcValue = response['samples'][0]['adc-1']
         voltage = adcValue*(1200/1024)
         tempC = (voltage-500)/10
-        return round(tempC,0)
+        return round(tempC,1)
     
     @property
     def unit_of_measurement(self):
