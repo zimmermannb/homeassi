@@ -85,10 +85,27 @@ zone 3:
   radius: 100
   icon: mdi:worker
 
+zone 4:
+  name: Backnang
+  latitude: 48.951686
+  longitude: 9.415006
+  radius: 50
+  icon: mdi:home
+  
 device_tracker:
   - platform: owntracks
     max_gps_accuracy: 200
     waypoints: true
+    track_new_device: False
+  - platform: fritz
+    host: 192.168.1.1
+    track_new_device: False
+  - platform: fritz
+    host: 192.168.2.1
+    track_new_device: False
+  - platform: fritz
+    host: 192.168.3.1
+    track_new_device: False
 
 mqtt:
   broker: m21.cloudmqtt.com
@@ -108,17 +125,17 @@ mqtt:
     qos: 1
     retain: true
 
-switch ac:
-  platform: example
-  file_path: /tmp/ac
+#switch ac:
+#  platform: example
+#  file_path: /tmp/ac
 
-switch air:
-  platform: example
-  file_path: /tmp/air
+#switch air:
+#  platform: example
+#  file_path: /tmp/air
 
-xor_automation:
-  entity_1: switch.ac
-  entity_2: switch.air
+#xor_automation:
+#  entity_1: switch.ac
+#  entity_2: switch.air
 
 media_player:
   - platform: kodi
