@@ -1,7 +1,7 @@
 ggyaousd_benniown:
   hide_if_away: no
-  mac:
+  mac: D0:50:99:6B:F9:25
   name: Benni
   picture: https://cdn1.iconfinder.com/data/icons/ninja-things-1/1772/ninja-simple-512.png
   track: true
-  vendor:
+  vendor: OnePlus
