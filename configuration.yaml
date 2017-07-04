@@ -96,16 +96,16 @@ device_tracker:
   - platform: owntracks
     max_gps_accuracy: 200
     waypoints: true
-    track_new_device: False
+    track_new_device: No
   - platform: fritz
     host: 192.168.1.1
-    track_new_device: False
+    track_new_device: No
   - platform: fritz
     host: 192.168.2.1
-    track_new_device: False
+    track_new_device: No
   - platform: fritz
     host: 192.168.3.1
-    track_new_device: False
+    track_new_device: NO
 
 mqtt:
   broker: m21.cloudmqtt.com
