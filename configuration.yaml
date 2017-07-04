@@ -37,7 +37,7 @@ logger:
 updater:
 
 # Discover some devices automatically
-discovery:
+#discovery:
 
 # Allows you to issue voice commands from the frontend in enabled browsers
 conversation:
@@ -113,17 +113,17 @@ mqtt:
   username: ggyaousd
   password: !secret cloudmqtt_password
   client_id: home-assi1
-  protocol: 3.1
-  birth_message:
-    topic: 'hass/status'
-    payload: 'online'
-    qos: 1
-    retain: true
-  will_message:
-    topic: 'hass/status'
-    payload: 'offline'
-    qos: 1
-    retain: true
+#  protocol: 3.1
+#  birth_message:
+#    topic: 'hass/status'
+#    payload: 'online'
+#    qos: 1
+#    retain: true
+#  will_message:
+#    topic: 'hass/status'
+#    payload: 'offline'
+#    qos: 1
+#    retain: true
 
 #switch ac:
 #  platform: example
