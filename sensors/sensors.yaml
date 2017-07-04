@@ -2,5 +2,5 @@
 
 - platform: example
 
-- platform: XBeeTempSensor
-  device: /dev/ttyUSB0
+#- platform: XBeeTempSensor
+#  device: /dev/ttyUSB0
