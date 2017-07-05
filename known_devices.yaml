@@ -1,1 +1,10 @@
 
+
+benni_benni:
+  hide_if_away: false
+  icon: mdi:face
+  mac:
+  name: benni
+  picture:
+  track: true
+  vendor:

@@ -93,17 +93,17 @@ zone 4:
   icon: mdi:home
 
 device_tracker:
-#  - platform: owntracks
-#    max_gps_accuracy: 200
-#    waypoints: true
-#    track_new_device: No
+  - platform: owntracks
+    max_gps_accuracy: 200
+    waypoints: true
+    track_new_device: No
 
-#mqtt:
-#  broker: m21.cloudmqtt.com
-#  port: 12863
-#  username: ggyaousd
-#  password: !secret cloudmqtt_password
-#  client_id: home-assi1
+mqtt:
+  broker: m20.cloudmqtt.com
+  port: 22804
+  username: hass
+  password: !secret cloudmqtt_password
+  client_id: home-assi1
 #  protocol: 3.1
 #  birth_message:
 #    topic: 'hass/status'
