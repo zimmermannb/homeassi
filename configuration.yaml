@@ -24,7 +24,7 @@ http:
   ip_ban_enabled: True
 
 logger:
-#  default: critical 
+#  default: critical
 #  default: fatal
 #  default: error
 #  default: warning
@@ -91,7 +91,7 @@ zone 4:
   longitude: 9.415006
   radius: 50
   icon: mdi:home
-  
+
 device_tracker:
 #  - platform: owntracks
 #    max_gps_accuracy: 200
