@@ -149,3 +149,430 @@ tplink_product_2:
   picture:
   track: false
   vendor: TP-LINK TECHNOLOGIES CO.,LTD.
+
+benni:
+  hide_if_away: false
+  icon:
+  mac: D0:50:99:6B:F9:25
+  name: Benni
+  picture:
+  track: false
+  vendor: ASRock Incorporation
+
+huaweip8lite2017:
+  name: opa_oma
+  hide_if_away: false
+  icon:
+  mac: 54:25:EA:3E:E8:A9
+  name: HUAWEI-P8-lite-2017
+  picture:
+  track: true
+  vendor: HUAWEI TECHNOLOGIES CO.,LTD
+
+motorolaxt1092stefanclaudiazimmermanngmailcom:
+  name: Mama
+  hide_if_away: false
+  icon:
+  mac: 90:68:C3:52:AA:13
+  name: Motorola-XT1092-stefan-claudia-zimmermann-gmail-com
+  picture:
+  track: true
+  vendor: Motorola Mobility LLC, a Lenovo Company
+
+carinasiphone:
+  hide_if_away: false
+  icon:
+  mac: BC:54:36:DD:A4:F7
+  name: Carinas-iPhone
+  picture:
+  track: true
+  vendor: Apple, Inc.
+
+dominicsiphone:
+  hide_if_away: false
+  icon:
+  mac: C0:CC:F8:EB:C9:C6
+  name: Dominics-iPhone
+  picture:
+  track: true
+  vendor: Apple, Inc.
+
+omapc:
+  hide_if_away: false
+  icon:
+  mac: D8:CB:8A:C3:CD:E7
+  name: OMA-PC
+  picture:
+  track: false
+  vendor: Micro-Star INTL CO., LTD.
+
+appletv:
+  hide_if_away: false
+  icon:
+  mac: 1C:1A:C0:8A:BB:6E
+  name: Apple-TV
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+stefannb:
+  hide_if_away: false
+  icon:
+  mac: AC:2B:6E:B4:8F:F2
+  name: Stefan-NB
+  picture:
+  track: false
+  vendor: Intel Corporate
+
+pc1921681127:
+  hide_if_away: false
+  icon:
+  mac: E4:A4:71:9B:27:5B
+  name: PC-192-168-1-127
+  picture:
+  track: false
+  vendor: unknown
+
+fritzboxoma:
+  hide_if_away: false
+  icon:
+  mac: 24:65:11:59:1B:19
+  name: FritzBox-Oma
+  picture:
+  track: false
+  vendor: AVM GmbH
+
+plexmediaserverqnap:
+  hide_if_away: false
+  icon:
+  mac: 00:08:9B:F9:41:C9
+  name: Plex-Media-Server--qnap
+  picture:
+  track: false
+  vendor: ICP Electronics Inc.
+
+huaweip8lite2017:
+  hide_if_away: false
+  name: opa_oma
+  icon:
+  mac: 54:25:EA:3E:E8:A9
+  name: HUAWEI-P8-lite-2017
+  picture:
+  track: true
+  vendor: HUAWEI TECHNOLOGIES CO.,LTD
+
+benni:
+  hide_if_away: false
+  icon:
+  mac: D0:50:99:6B:F9:25
+  name: Benni
+  picture:
+  track: false
+  vendor: ASRock Incorporation
+
+epson83a9f3:
+  hide_if_away: false
+  icon:
+  mac: 64:EB:8C:83:A9:F3
+  name: EPSON83A9F3
+  picture:
+  track: false
+  vendor: Seiko Epson Corporation
+
+qnap:
+  hide_if_away: false
+  icon:
+  mac: 00:08:9B:F9:41:C7
+  name: QNAP
+  picture:
+  track: false
+  vendor: ICP Electronics Inc.
+
+tabletmama:
+  hide_if_away: false
+  icon:
+  mac: 00:E3:B2:DA:65:B1
+  name: TabletMama
+  picture:
+  track: false
+  vendor: Samsung Electronics Co.,Ltd
+
+carinasipad:
+  hide_if_away: false
+  icon:
+  mac: 04:54:53:E7:12:4B
+  name: Carinas-iPad
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+android3aeec5a6d722e2d6:
+  name: Benni
+  hide_if_away: false
+  icon:
+  mac: C0:EE:FB:EF:FE:42
+  name: android-3aeec5a6d722e2d6
+  picture:
+  track: true
+  vendor: OnePlus Tech (Shenzhen) Ltd
+
+dominicsipad:
+  hide_if_away: false
+  icon:
+  mac: 9C:04:EB:94:E7:B3
+  name: Dominics-iPad
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+tvsamsung5series32:
+  hide_if_away: false
+  icon:
+  mac: E4:7D:BD:A2:01:9B
+  name: TV--Samsung-5-Series--32
+  picture:
+  track: false
+  vendor: Samsung Electronics Co.,Ltd
+
+fritzbox:
+  hide_if_away: false
+  icon:
+  mac: C8:0E:14:F1:24:F5
+  name: fritz.box
+  picture:
+  track: false
+  vendor: AVM Audiovisuelles Marketing und Computersysteme GmbH
+
+fritzrepeater:
+  hide_if_away: false
+  icon:
+  mac: 3E:10:D5:FF:89:16
+  name: fritz.repeater
+  picture:
+  track: false
+  vendor: unknown
+
+qnapbk:
+  hide_if_away: false
+  icon:
+  mac: 00:08:9B:C7:8C:D7
+  name: qnap-bk
+  picture:
+  track: false
+  vendor: ICP Electronics Inc.
+
+drucker:
+  hide_if_away: false
+  icon:
+  mac: 00:C0:EE:6A:0A:7F
+  name: drucker
+  picture:
+  track: false
+  vendor: KYOCERA Display Corporation
+
+fritzbox_2:
+  hide_if_away: false
+  icon:
+  mac: 9C:C7:A6:B9:8A:32
+  name: fritz.box
+  picture:
+  track: false
+  vendor: AVM GmbH
+
+fritzrepeater_2:
+  hide_if_away: false
+  icon:
+  mac: 3E:10:D5:8E:4A:1D
+  name: fritz.repeater
+  picture:
+  track: false
+  vendor: unknown
+
+hass:
+  hide_if_away: false
+  icon:
+  mac: 52:54:00:E0:23:D3
+  name: hass
+  picture:
+  track: false
+  vendor: unknown
+
+fritzboxoma:
+  hide_if_away: false
+  icon:
+  mac: 24:65:11:59:1B:19
+  name: FritzBox-Oma
+  picture:
+  track: true
+  vendor: AVM GmbH
+
+huaweip8lite2017:
+  hide_if_away: false
+  icon:
+  mac: 54:25:EA:3E:E8:A9
+  name: HUAWEI-P8-lite-2017
+  picture:
+  track: true
+  vendor: HUAWEI TECHNOLOGIES CO.,LTD
+
+plexmediaserverqnap:
+  hide_if_away: false
+  icon:
+  mac: 00:08:9B:F9:41:C9
+  name: Plex-Media-Server--qnap
+  picture:
+  track: true
+  vendor: ICP Electronics Inc.
+
+benni:
+  hide_if_away: false
+  icon:
+  mac: D0:50:99:6B:F9:25
+  name: Benni
+  picture:
+  track: true
+  vendor: ASRock Incorporation
+
+qnap:
+  hide_if_away: false
+  icon:
+  mac: 00:08:9B:F9:41:C7
+  name: QNAP
+  picture:
+  track: true
+  vendor: ICP Electronics Inc.
+
+epson83a9f3:
+  hide_if_away: false
+  icon:
+  mac: 64:EB:8C:83:A9:F3
+  name: EPSON83A9F3
+  picture:
+  track: true
+  vendor: Seiko Epson Corporation
+
+android3aeec5a6d722e2d6:
+  hide_if_away: false
+  icon:
+  mac: C0:EE:FB:EF:FE:42
+  name: android-3aeec5a6d722e2d6
+  picture:
+  track: true
+  vendor: OnePlus Tech (Shenzhen) Ltd
+
+fritzbox:
+  hide_if_away: false
+  icon:
+  mac: 9C:C7:A6:B9:8A:32
+  name: fritz.box
+  picture:
+  track: true
+  vendor: AVM GmbH
+
+tabletmama:
+  hide_if_away: false
+  icon:
+  mac: 00:E3:B2:DA:65:B1
+  name: TabletMama
+  picture:
+  track: true
+  vendor: Samsung Electronics Co.,Ltd
+
+hass:
+  hide_if_away: false
+  icon:
+  mac: 52:54:00:E0:23:D3
+  name: hass
+  picture:
+  track: true
+  vendor: unknown
+
+drucker:
+  hide_if_away: false
+  icon:
+  mac: 00:C0:EE:6A:0A:7F
+  name: drucker
+  picture:
+  track: true
+  vendor: KYOCERA Display Corporation
+
+fritzrepeater:
+  hide_if_away: false
+  icon:
+  mac: 3E:10:D5:8E:4A:1D
+  name: fritz.repeater
+  picture:
+  track: true
+  vendor: unknown
+
+carinasipad:
+  hide_if_away: false
+  icon:
+  mac: 04:54:53:E7:12:4B
+  name: Carinas-iPad
+  picture:
+  track: true
+  vendor: Apple, Inc.
+
+dominicsipad:
+  hide_if_away: false
+  icon:
+  mac: 9C:04:EB:94:E7:B3
+  name: Dominics-iPad
+  picture:
+  track: true
+  vendor: Apple, Inc.
+
+tvsamsung5series32:
+  hide_if_away: false
+  icon:
+  mac: E4:7D:BD:A2:01:9B
+  name: TV--Samsung-5-Series--32
+  picture:
+  track: true
+  vendor: Samsung Electronics Co.,Ltd
+
+fritzbox_2:
+  hide_if_away: false
+  icon:
+  mac: C8:0E:14:F1:24:F5
+  name: fritz.box
+  picture:
+  track: true
+  vendor: AVM Audiovisuelles Marketing und Computersysteme GmbH
+
+fritzrepeater_2:
+  hide_if_away: false
+  icon:
+  mac: 3E:10:D5:FF:89:16
+  name: fritz.repeater
+  picture:
+  track: true
+  vendor: unknown
+
+qnapbk:
+  hide_if_away: false
+  icon:
+  mac: 00:08:9B:C7:8C:D7
+  name: qnap-bk
+  picture:
+  track: true
+  vendor: ICP Electronics Inc.
+
+tplink_product:
+  hide_if_away: false
+  icon:
+  mac: F8:1A:67:44:89:D8
+  name: TP-LINK Product
+  picture:
+  track: true
+  vendor: TP-LINK TECHNOLOGIES CO.,LTD.
+
+tplink_product_2:
+  hide_if_away: false
+  icon:
+  mac: F8:1A:67:44:89:CE
+  name: TP-LINK Product
+  picture:
+  track: true
+  vendor: TP-LINK TECHNOLOGIES CO.,LTD.
